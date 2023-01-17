@@ -1,0 +1,95 @@
+*{
+    font-family: sans-serif;
+}
+.default{
+    background-color: aliceblue;
+    border-radius: 3px;
+    border: 2px solid grey;
+}
+
+.default:hover{
+    background-color: gainsboro;
+}
+
+.primary{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: 2px solid rgb(131, 22, 233);
+}
+
+.primary:hover{
+   box-shadow: 0 0 0 1px yellowgreen;
+   background-color: blue;
+}
+
+.accent{
+    background-color: #1faffd;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.accent:hover{
+    box-shadow: 0 0 0 2px rgb(201, 255, 230);
+   background-color: rgb(0, 132, 255);
+}
+
+.danger{
+    background-color: rgb(255, 78, 78);
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.danger:hover{
+    box-shadow: 0 0 0 2px rgb(255, 73, 28);
+   background-color: red;
+}
+
+.large{
+    width: 75px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: large;
+}
+
+.large:hover{
+    background-color: rgb(226, 226, 226);
+    color: darkblue;
+}
+
+.small{
+    font-size: 10px;
+    border: 2px solid transparent;
+    border-radius: 1.5px;
+}
+.small:hover{
+    background-color: rgb(226, 226, 226);
+    color: darkblue;
+}
+
+.pill{
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 40px;
+    background-color: cornsilk;
+    border: solid 2px rgb(247, 232, 172);
+}
+
+.pill:hover{
+    background-color: greenyellow;
+}
+
+.custom{
+    background: linear-gradient(90deg, rgb(255, 184, 52), rgb(36, 151, 1));
+    border-radius: 3px;
+    border: 1px solid rgb(165, 255, 113);
+    color:white;
+
+}
+
+.custom:hover{
+    background: linear-gradient(90deg, rgb(36, 151, 1), rgb(255, 184, 52));
+}
